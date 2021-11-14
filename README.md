@@ -4,16 +4,16 @@
 Включает в себя слои:
 * Linear
 * Функции активации:
-** Sigmoid
-** ReLU
-** LeakyRELU
-** Softmax
-* Слои регуляризации
-** Dropout
-** BatchNorm
-* Функции потерь
-** MSE
-** CrossEntropy
+1. Sigmoid
+2. ReLU
+3. LeakyRELU
+4. Softmax
+* Слои регуляризации:
+1. Dropout
+2. BatchNorm
+* Функции потерь:
+1. MSE
+2. CrossEntropy
 
 ## optim.py
 Включает в себя оптимизаторы:
@@ -21,6 +21,7 @@
 * SGD with Nesterov momentum
 * RMSProp
 * Adam
+
  а также генератор батча:
  * loader
 
